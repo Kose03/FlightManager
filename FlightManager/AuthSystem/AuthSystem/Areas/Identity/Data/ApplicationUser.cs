@@ -10,9 +10,9 @@ namespace AuthSystem.Areas.Identity.Data
     // Add profile data for application users by adding properties to the ApplicationUser class
     public class ApplicationUser : IdentityUser
     {
-        //[PersonalData]
-        //[Column(TypeName="nvarchar(100)")]
-        //public string UserName { get; set; }
+        [PersonalData]
+        [Column(TypeName = "nvarchar(100)")]
+        public string UserName { get; set; }
         [PersonalData]
         [Column(TypeName = "nvarchar(MAX)")]
         public string FirstName { get; set; }

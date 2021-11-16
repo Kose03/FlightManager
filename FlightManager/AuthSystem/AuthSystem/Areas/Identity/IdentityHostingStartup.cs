@@ -18,9 +18,9 @@ namespace AuthSystem.Areas.Identity
             builder.ConfigureServices((context, services) => {
                 services.AddDbContext<AuthDbContext>(options =>
                     options.UseSqlServer(
-                        context.Configuration.GetConnectionString("Server=Kose-PC\\SQLEXPRESS;Database=UserDB;Trusted_Connection=True;MultipleActiveResultSets=true")));
+                        context.Configuration.GetConnectionString("AuthDbContextConnection")));
 
-                services.AddDefaultIdentity<ApplicationUser>(options => options.SignIn.RequireConfirmedAccount = false)
+                services.AddDefaultIdentity<ApplicationUser>(options => options.SignIn.RequireConfirmedAccount = true)
                     .AddEntityFrameworkStores<AuthDbContext>();
             });
         }
