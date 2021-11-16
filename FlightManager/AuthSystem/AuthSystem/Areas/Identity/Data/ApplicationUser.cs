@@ -1,0 +1,38 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.Linq;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Identity;
+
+namespace AuthSystem.Areas.Identity.Data
+{
+    // Add profile data for application users by adding properties to the ApplicationUser class
+    public class ApplicationUser : IdentityUser
+    {
+        //[PersonalData]
+        //[Column(TypeName="nvarchar(100)")]
+        //public string UserName { get; set; }
+        [PersonalData]
+        [Column(TypeName = "nvarchar(MAX)")]
+        public string FirstName { get; set; }
+        [PersonalData]
+        [Column(TypeName = "nvarchar(MAX)")]
+        public string LastName { get; set; }
+        [PersonalData]
+        [Column(TypeName = "varchar(MAX)")]
+        public string Password { get; set; }
+        [PersonalData]
+        [Column(TypeName = "varchar(MAX)")]
+        public string EmailId { get; set; }
+        [PersonalData]
+        [Column(TypeName = "int")]
+        public int Egn { get; set; }
+        [PersonalData]
+        [Column(TypeName = "nvarchar(MAX)")]
+        public string Address { get; set; }
+        [PersonalData]
+        [Column(TypeName = "int")]
+        public int Telnumber { get; set; }
+    }
+}
