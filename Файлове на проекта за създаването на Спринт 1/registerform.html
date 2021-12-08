@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Формуляр</title>
+    </head>
+<body>
+
+    <form method="post" name = "f1" action="http://nw65-1.ecs.uni-ruse.bg/students/WebDsn/WebDsn15-8/dumprequest.php"> 
+        <table align = "center" width = "500"
+                border="0" bgcolor="#FFDDAA"
+                cellpadding = "3" cellspacing="5">
+                <tr bgcolor="#600007">
+                    <td colspan="2" align="center"><font color="white"><b>Регистрация на потребител</b></font></td> </tr>
+           <tr>
+               <td align="right">Име</td>
+               <td><input type="text" name="firstName" size="20"></td>
+           </tr>
+           <tr>
+               <td align="right">Фамилия</td>
+               <td><input type="text" name="lastName" size="20"></td>
+            </tr>
+            <tr>
+               <td align="right">Пол</td>
+               <td><input type="radio" name="pol" value="f">Жена
+               <input type="radio" name="pol" value="m">Мъж</td>
+           </tr>
+           <tr>
+            <td align="right">Години</td>
+            <td><input type="number" name="age" size="2" min="18" max="99"></td>
+            <tr>
+                <td align="right">Email</td>
+                <td><input type="text" name="lastName" size="20"></td>
+             </tr>
+             <tr>
+                <td align="right">Адрес</td>
+                <td>
+                    <textarea rows ="3" cols="30" name "address"></textarea>
+                </td>
+             </tr>
+             <tr>
+                <td align="right">Държава</td>
+                <td><select name="ct">
+                    <option value="1">България</option>
+                    <option value="2">Австралия</option>
+                    <option value="3">Германия</option>
+                    <option value="4">СССР</option>
+                    <option value="5">СФР Югославия</option>
+                    <option value="6">КНДР</option>
+                    <option value="7">ГДР</option>
+                    <option value="8">ФРГ</option>
+                    
+                </select></td>
+             </tr>
+             <tr>
+                <td align="right">Професионални <br>интереси</td>
+                <td><input type="checkbox" name="asd" value="1" checked>Алгоритми и структури от данни
+               <br><input type="checkbox" name="bd" value="1">Бази от данни
+               <br><input type="checkbox" name="bd" value="1" checked>Уеб дизайн
+               <br><input type="checkbox" name="bd" value="1">Уеб програмиране</td>
+                </tr>
+                <tr>
+                    <td align="right">Потребителско име</td>
+                    <td><input type="text" name="userName" size="20"></td>
+                 </tr>
+                 <tr>
+                    <td align="right">Парола</td>
+                    <td><input type="password" name="passWord" size="20"></td>
+                    <tr>
+                    <td colspan="2" align="center">
+                    <input type="submit" value="Регистрирай">
+                    <input type="reset" value="Изчисти">
+                    <input type="button" value="Откажи">
+                </tr>
+                </td>
+                 </tr>
+                 
+         </tr>
+                </table>
+            </form> 
+</form> 
+</body>
+</html>
