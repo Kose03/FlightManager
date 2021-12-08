@@ -1,9 +1,0 @@
-D:\GitHub\FlightManager\FlightManager\obj\Debug\net5.0\FlightManager.csproj.AssemblyReference.cache
-D:\GitHub\FlightManager\FlightManager\obj\Debug\net5.0\FlightManager.GeneratedMSBuildEditorConfig.editorconfig
-D:\GitHub\FlightManager\FlightManager\obj\Debug\net5.0\FlightManager.AssemblyInfoInputs.cache
-D:\GitHub\FlightManager\FlightManager\obj\Debug\net5.0\FlightManager.AssemblyInfo.cs
-D:\GitHub\FlightManager\FlightManager\obj\Debug\net5.0\FlightManager.csproj.CoreCompileInputs.cache
-D:\GitHub\FlightManager\FlightManager\obj\Debug\net5.0\FlightManager.MvcApplicationPartsAssemblyInfo.cs
-D:\GitHub\FlightManager\FlightManager\obj\Debug\net5.0\FlightManager.MvcApplicationPartsAssemblyInfo.cache
-D:\GitHub\FlightManager\FlightManager\obj\Debug\net5.0\FlightManager.RazorAssemblyInfo.cache
-D:\GitHub\FlightManager\FlightManager\obj\Debug\net5.0\FlightManager.RazorAssemblyInfo.cs
