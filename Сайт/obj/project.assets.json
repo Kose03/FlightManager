@@ -7467,11 +7467,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GitHub\\FlightManager\\FlightManager\\Завършена регистрационна форма\\FlightManager.csproj",
+      "projectUniqueName": "D:\\GitHub\\FlightManager\\Сайт\\FlightManager.csproj",
       "projectName": "FlightManager",
-      "projectPath": "D:\\GitHub\\FlightManager\\FlightManager\\Завършена регистрационна форма\\FlightManager.csproj",
+      "projectPath": "D:\\GitHub\\FlightManager\\Сайт\\FlightManager.csproj",
       "packagesPath": "C:\\Users\\Kose\\.nuget\\packages\\",
-      "outputPath": "D:\\GitHub\\FlightManager\\FlightManager\\Завършена регистрационна форма\\obj\\",
+      "outputPath": "D:\\GitHub\\FlightManager\\Сайт\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Kose\\AppData\\Roaming\\NuGet\\NuGet.Config",
