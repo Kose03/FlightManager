@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GitHub\\FlightManager\\FlightManager\\Завършена регистрационна форма\\FlightManager.csproj": {}
+    "D:\\FlightManager\\WebApplication\\Сайт\\FlightManager.csproj": {}
   },
   "projects": {
-    "D:\\GitHub\\FlightManager\\FlightManager\\Завършена регистрационна форма\\FlightManager.csproj": {
+    "D:\\FlightManager\\WebApplication\\Сайт\\FlightManager.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub\\FlightManager\\FlightManager\\Завършена регистрационна форма\\FlightManager.csproj",
+        "projectUniqueName": "D:\\FlightManager\\WebApplication\\Сайт\\FlightManager.csproj",
         "projectName": "FlightManager",
-        "projectPath": "D:\\GitHub\\FlightManager\\FlightManager\\Завършена регистрационна форма\\FlightManager.csproj",
+        "projectPath": "D:\\FlightManager\\WebApplication\\Сайт\\FlightManager.csproj",
         "packagesPath": "C:\\Users\\Kose\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub\\FlightManager\\FlightManager\\Завършена регистрационна форма\\obj\\",
+        "outputPath": "D:\\FlightManager\\WebApplication\\Сайт\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Kose\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -81,7 +81,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
         }
       }
     }
