@@ -19,20 +19,27 @@ namespace AuthSystem.Controllers
         {
             _logger = logger;
         }
-
+        [AllowAnonymous] // Задаваме 
         public IActionResult Index()
         {
             return View();
         }
-
+        [AllowAnonymous]
         public IActionResult Privacy()
         {
             return View();
         }
+        [AllowAnonymous]
         public IActionResult FAQ()
         {
             return View();
         }
+        [AllowAnonymous]
+        public IActionResult Reservations()
+        {
+            return View();
+        }
+
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
