@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\FlightManager\\WebApplication\\Сайт\\FlightManager.csproj": {}
+    "D:\\GitHub\\FlightManager\\Сайт\\FlightManager.csproj": {}
   },
   "projects": {
-    "D:\\FlightManager\\WebApplication\\Сайт\\FlightManager.csproj": {
+    "D:\\GitHub\\FlightManager\\Сайт\\FlightManager.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\FlightManager\\WebApplication\\Сайт\\FlightManager.csproj",
+        "projectUniqueName": "D:\\GitHub\\FlightManager\\Сайт\\FlightManager.csproj",
         "projectName": "FlightManager",
-        "projectPath": "D:\\FlightManager\\WebApplication\\Сайт\\FlightManager.csproj",
+        "projectPath": "D:\\GitHub\\FlightManager\\Сайт\\FlightManager.csproj",
         "packagesPath": "C:\\Users\\Kose\\.nuget\\packages\\",
-        "outputPath": "D:\\FlightManager\\WebApplication\\Сайт\\obj\\",
+        "outputPath": "D:\\GitHub\\FlightManager\\Сайт\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Kose\\AppData\\Roaming\\NuGet\\NuGet.Config",
