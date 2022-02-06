@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "248008e7-806a-478f-bf04-711eac6d703c": {
+      "ProjectGuid": "248008e7-806a-478f-bf04-711eac6d703c",
+      "DisplayName": "FlightManager",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

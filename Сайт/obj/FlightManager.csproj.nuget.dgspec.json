@@ -1,18 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GitHub\\FlightManager\\Сайт\\FlightManager.csproj": {}
+    "D:\\FlightManager\\ASP.NET Framework Сайт\\Сайт за училище\\FlightManager.csproj": {}
   },
   "projects": {
-    "D:\\GitHub\\FlightManager\\Сайт\\FlightManager.csproj": {
+    "D:\\FlightManager\\ASP.NET Framework Сайт\\Сайт за училище\\FlightManager.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub\\FlightManager\\Сайт\\FlightManager.csproj",
+        "projectUniqueName": "D:\\FlightManager\\ASP.NET Framework Сайт\\Сайт за училище\\FlightManager.csproj",
         "projectName": "FlightManager",
-        "projectPath": "D:\\GitHub\\FlightManager\\Сайт\\FlightManager.csproj",
+        "projectPath": "D:\\FlightManager\\ASP.NET Framework Сайт\\Сайт за училище\\FlightManager.csproj",
         "packagesPath": "C:\\Users\\Kose\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub\\FlightManager\\Сайт\\obj\\",
+        "outputPath": "D:\\FlightManager\\ASP.NET Framework Сайт\\Сайт за училище\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "C:\\Users\\Kose\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -81,7 +84,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

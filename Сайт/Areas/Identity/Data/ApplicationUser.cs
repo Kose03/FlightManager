@@ -5,7 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Identity;
 
-namespace AuthSystem.Areas.Identity.Data
+namespace FlightManager.Areas.Identity.Data
 {
     // Add profile data for application users by adding properties to the ApplicationUser class
     public class ApplicationUser : IdentityUser
@@ -22,5 +22,6 @@ namespace AuthSystem.Areas.Identity.Data
         [PersonalData]
         [Column(TypeName = "nvarchar(MAX)")]
         public string Address { get; set; }
+        public virtual ICollection<Reservations> Reservation { get; set; }
     }
 }

@@ -1,4 +1,4 @@
-﻿using AuthSystem.Models;
+﻿using FlightManager.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
@@ -8,7 +8,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace AuthSystem.Controllers
+namespace FlightManager.Controllers
 {
     [Authorize]
     public class HomeController : Controller
@@ -19,16 +19,27 @@ namespace AuthSystem.Controllers
         {
             _logger = logger;
         }
-
+        [AllowAnonymous] // Анонимен потребител може да посети страницата
         public IActionResult Index()
         {
             return View();
         }
-
+        [AllowAnonymous]
         public IActionResult Privacy()
         {
             return View();
         }
+        [AllowAnonymous]
+        public IActionResult FAQ()
+        {
+            return View();
+        }
+        [AllowAnonymous]
+        public IActionResult Reservations()
+        {
+            return View();
+        }
+
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

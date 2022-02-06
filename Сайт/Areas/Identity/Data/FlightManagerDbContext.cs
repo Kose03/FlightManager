@@ -2,16 +2,16 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using AuthSystem.Areas.Identity.Data;
+using FlightManager.Areas.Identity.Data;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-namespace AuthSystem.Data
+namespace FlightManager.Data
 {
-    public class AuthDbContext : IdentityDbContext<ApplicationUser>
+    public class FlightManagerDbContext : IdentityDbContext<ApplicationUser>
     {
-        public AuthDbContext(DbContextOptions<AuthDbContext> options)
+        public FlightManagerDbContext(DbContextOptions<FlightManagerDbContext> options)
             : base(options)
         {
         }
