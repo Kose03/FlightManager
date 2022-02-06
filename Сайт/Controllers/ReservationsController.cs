@@ -5,16 +5,16 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
+using FlightManager.Areas.Identity.Data;
 using FlightManager.Data;
-using FlightManager.Models;
 
 namespace FlightManager.Controllers
 {
     public class ReservationsController : Controller
     {
-        private readonly AuthDbContext _context;
+        private readonly FlightManagerContext _context;
 
-        public ReservationsController(AuthDbContext context)
+        public ReservationsController(FlightManagerContext context)
         {
             _context = context;
         }

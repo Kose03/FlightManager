@@ -2,11 +2,15 @@
   "dependencies": {
     "mssql1": {
       "type": "mssql.local",
-      "connectionId": "ConnectionStrings:AuthDbContextConnection"
+      "connectionId": "ConnectionStrings:FlightManagerDbContextConnection"
     },
     "mssql2": {
       "type": "mssql.local",
-      "connectionId": "ConnectionStrings:AuthDbContext"
+      "connectionId": "ConnectionStrings:FlightManagerDbContext"
+    },
+    "mssql3": {
+      "type": "mssql.local",
+      "connectionId": "ConnectionStrings:FlightManagerContext"
     }
   }
 }

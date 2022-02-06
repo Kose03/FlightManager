@@ -1,6 +1,6 @@
 using System;
 
-namespace AuthSystem.Models
+namespace FlightManager.Models
 {
     public class ErrorViewModel
     {
