@@ -7,14 +7,16 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using FlightManager.Areas.Identity.Data;
 using FlightManager.Data;
+using Microsoft.AspNetCore.Authorization;
 
 namespace FlightManager.Controllers
 {
+    [Authorize]
     public class ReservationsController : Controller
     {
-        private readonly FlightManagerContext _context;
+        private readonly FlightManagerDbContext _context;
 
-        public ReservationsController(FlightManagerContext context)
+        public ReservationsController(FlightManagerDbContext context)
         {
             _context = context;
         }
@@ -44,6 +46,7 @@ namespace FlightManager.Controllers
         }
 
         // GET: Reservations/Create
+        [AllowAnonymous]
         public IActionResult Create()
         {
             return View();
@@ -54,7 +57,7 @@ namespace FlightManager.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,FirstName,FathersName,FamilyName,EGN,TelephoneNumber,Nationality,TypeOfTicket")] Reservations reservations)
+        public async Task<IActionResult> Create([Bind("Id,FirstName,FathersName,FamilyName,Email,EGN,TelephoneNumber,Nationality,TypeOfTicket")] Reservations reservations)
         {
             if (ModelState.IsValid)
             {
@@ -66,6 +69,7 @@ namespace FlightManager.Controllers
         }
 
         // GET: Reservations/Edit/5
+        [Authorize]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -86,7 +90,7 @@ namespace FlightManager.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,FirstName,FathersName,FamilyName,EGN,TelephoneNumber,Nationality,TypeOfTicket")] Reservations reservations)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,FirstName,FathersName,FamilyName,Email,EGN,TelephoneNumber,Nationality,TypeOfTicket")] Reservations reservations)
         {
             if (id != reservations.Id)
             {
@@ -117,6 +121,7 @@ namespace FlightManager.Controllers
         }
 
         // GET: Reservations/Delete/5
+        [Authorize]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)

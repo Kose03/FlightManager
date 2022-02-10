@@ -1,7 +1,11 @@
 USE [master]
 GO
 
-/****** Object:  Database [FlightManager]    Script Date: 6.2.2022 г. 14:52:07 ******/
+/****** Object:  Database [FlightManager]    Script Date: 10.2.2022 г. 14:15:41 ******/
+DROP DATABASE [FlightManager]
+GO
+
+/****** Object:  Database [FlightManager]    Script Date: 10.2.2022 г. 14:15:41 ******/
 CREATE DATABASE [FlightManager]
  CONTAINMENT = NONE
  ON  PRIMARY 

@@ -34,7 +34,7 @@ namespace FlightManager.Controllers
         {
             return View();
         }
-        [AllowAnonymous]
+        [Authorize]
         public IActionResult Reservations()
         {
             return View();

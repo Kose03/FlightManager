@@ -31,8 +31,8 @@ namespace FlightManager
             services.Configure<EmailSettings>(Configuration.GetSection("EmailSettings"));
             services.AddTransient<IEmailSender, AuthMessageSender>();
 
-            services.AddDbContext<FlightManagerContext>(options =>
-                    options.UseSqlServer(Configuration.GetConnectionString("FlightManagerContext")));
+            services.AddDbContext<FlightManagerDbContext>(options =>
+                    options.UseSqlServer(Configuration.GetConnectionString("FlightManagerDbContext")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

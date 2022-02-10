@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\FlightManager\\ASP.NET Framework Сайт\\Сайт за училище\\FlightManager.csproj": {}
+    "D:\\FlightManager\\ASP.NET Framework Сайт\\Сайт за училище + резервации нов\\Сайт за училище + резервации\\FlightManager.csproj": {}
   },
   "projects": {
-    "D:\\FlightManager\\ASP.NET Framework Сайт\\Сайт за училище\\FlightManager.csproj": {
+    "D:\\FlightManager\\ASP.NET Framework Сайт\\Сайт за училище + резервации нов\\Сайт за училище + резервации\\FlightManager.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\FlightManager\\ASP.NET Framework Сайт\\Сайт за училище\\FlightManager.csproj",
+        "projectUniqueName": "D:\\FlightManager\\ASP.NET Framework Сайт\\Сайт за училище + резервации нов\\Сайт за училище + резервации\\FlightManager.csproj",
         "projectName": "FlightManager",
-        "projectPath": "D:\\FlightManager\\ASP.NET Framework Сайт\\Сайт за училище\\FlightManager.csproj",
+        "projectPath": "D:\\FlightManager\\ASP.NET Framework Сайт\\Сайт за училище + резервации нов\\Сайт за училище + резервации\\FlightManager.csproj",
         "packagesPath": "C:\\Users\\Kose\\.nuget\\packages\\",
-        "outputPath": "D:\\FlightManager\\ASP.NET Framework Сайт\\Сайт за училище\\obj\\",
+        "outputPath": "D:\\FlightManager\\ASP.NET Framework Сайт\\Сайт за училище + резервации нов\\Сайт за училище + резервации\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
