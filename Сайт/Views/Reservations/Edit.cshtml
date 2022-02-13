@@ -1,7 +1,7 @@
 ﻿@model FlightManager.Areas.Identity.Data.Reservations
 
 @{
-    ViewData["Title"] = "Edit";
+    ViewData["Title"] = "Редактиране на резервация";
 }
 
 <h1>Редактиране на резервация</h1>
@@ -51,7 +51,10 @@
             </div>
             <div class="form-group">
                 <label asp-for="TypeOfTicket" class="control-label"></label>
-                <input asp-for="TypeOfTicket" class="form-control" />
+                <select asp-for="TypeOfTicket" class="form-control">
+                    <option value="Обикновен">Обикновен</option>
+                    <option value="Бизнес класа">Бизнес класа</option>
+                </select>
                 <span asp-validation-for="TypeOfTicket" class="text-danger"></span>
             </div>
             <div class="form-group">

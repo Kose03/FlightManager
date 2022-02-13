@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "naj/c8K/wDYZGgjGQKdM+Bv1riH2SbivB3fi5jIcY85a8zaVaVOcWkKFhBiGPeIdPae8t1jiE9CrHh/mSl+jcw==",
+  "dgSpecHash": "q1zTvcIG+ELp6dQBqNXUyy2XebqQLJdrE0niqcPckJFHTJQM0mJsTufrO0kMyDcZgjrzWWeT4ikyRNtrn5/iUA==",
   "success": true,
-  "projectFilePath": "D:\\FlightManager\\ASP.NET Framework Сайт\\Сайт за училище + резервации нов\\Сайт за училище + резервации\\FlightManager.csproj",
+  "projectFilePath": "D:\\FlightManager\\ASP.NET Framework Сайт\\FlightManager + Reservations\\Сайт за училище + резервации\\FlightManager.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Kose\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Kose\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.12\\microsoft.aspnetcore.cryptography.internal.5.0.12.nupkg.sha512",
