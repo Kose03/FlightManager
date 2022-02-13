@@ -1,8 +1,8 @@
 ﻿@model FlightManager.Areas.Identity.Data.Reservations
 
 @{
-    ViewData["Title"] = "Create";
-     Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewData["Title"] = "Запазване на резервация";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
 <h1>Запазване на резервация</h1>
@@ -11,7 +11,7 @@
 <hr />
 <div class="row">
     <div class="col-md-4">
-        <form asp-action="Create">
+        <form asp-action="Create" method="post">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
                 <label asp-for="FirstName" class="control-label"></label>
@@ -50,22 +50,28 @@
             </div>
             <div class="form-group">
                 <label asp-for="TypeOfTicket" class="control-label"></label>
-                <input asp-for="TypeOfTicket" class="form-control" />
+                @*<input asp-for="TypeOfTicket" class="form-control">*@
+                    <select asp-for="TypeOfTicket" class="form-control">
+                        <option value="Обикновен">Обикновен</option>
+                        <option value="Бизнес класа">Бизнес класа</option>
+                    </select>
+                
                 <span asp-validation-for="TypeOfTicket" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <input type="submit" value="Запази резервация" class="btn btn-primary" /> 
-                
-            </div>
+                <input type="submit" value="Запази резервация" class="btn btn-primary" />
+                </div>
         </form>
     </div>
 </div>
 
 <div>
     <a asp-action="Index"><input type="button" value="Администрация на резервации" class="btn btn-info"/></a>
-   @* <a asp-action="Index">Администрация на резервации</a>*@
+    @* <a asp-action="Index">Администрация на резервации</a>*@
 </div>
 
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    @{
+    await Html.RenderPartialAsync("_ValidationScriptsPartial");
+}
 }
