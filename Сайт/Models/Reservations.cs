@@ -9,15 +9,15 @@ namespace FlightManager.Areas.Identity.Data
         public int Id { get; set; }
         [Required]
         [DataType(DataType.Text)]
-        [Display(Name = "Първо име")]
+        [Display(Name = "Име")]
         public string FirstName { get; set; }
         [Required]
         [DataType(DataType.Text)]
-        [Display(Name = "Бащино име")]
+        [Display(Name = "Презиме")]
         public string FathersName { get; set; }
         [Required]
         [DataType(DataType.Text)]
-        [Display(Name = "Семейно име")]
+        [Display(Name = "Фамилия")]
         public string FamilyName { get; set; }
         [Required]
         [DataType(DataType.Text)]
